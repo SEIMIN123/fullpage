@@ -1,13 +1,15 @@
 header {
+
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,.6);
   z-index: 100;
 }
 
 header nav ul {
+
   display: flex;
   justify-content: center;
 }
@@ -15,13 +17,15 @@ header nav ul {
 header nav ul li {
   width: 10vw;
   height: 10vh;
-  list-style: none;
+  list-style: none ;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 li > a {
+
   font-size: 1vw;
   color: #fff;
   font-weight: bold;
