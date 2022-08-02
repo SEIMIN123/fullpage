@@ -4,7 +4,7 @@ header {
   left: 0;
   right: 0;
   top: 0;
-  background: rgba(0,0,0,.6);
+  background: rgba(0, 0, 0, .6);
   z-index: 100;
 }
 
@@ -16,18 +16,51 @@ header nav ul {
 
 header nav ul li {
   width: 10vw;
-  height: 10vh;
-  list-style: none ;
+  height: 5vh;
+  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
 
-li > a {
+li>a {
 
   font-size: 1vw;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+  text-align: center;
+}
+
+.fp-tableCell {
+  text-align: center;
+
+}
+
+.slide-1 {
+
+  background: url(https://i.ytimg.com/vi/ac-Y-ajdO3c/maxresdefault.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.slide-2 {
+
+  background: url(https://cdn.gamemeca.com/gmdata/0001/661/744/gm988302_20210614shg4.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.slide-3 {
+
+  background: url(https://blog-imgs-148.fc2.com/p/a/z/pazusoku/119A008223.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
